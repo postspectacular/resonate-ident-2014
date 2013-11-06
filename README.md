@@ -1,6 +1,6 @@
 # Resonate 2014 responsive identity
 
-http://resonate.io/
+[resonate.io](http://resonate.io/)
 
 JS version of physics driven kinetic typography system using canvas &
 mouse/touch events to manipulate attractors.
