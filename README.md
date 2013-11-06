@@ -1,7 +1,9 @@
 # Resonate 2014 responsive identity
 
-Physics driven kinetic typography using canvas & mouse/touch events to
-manipulate attractors.
+http://resonate.io/
+
+JS version of physics driven kinetic typography system using canvas &
+mouse/touch events to manipulate attractors.
 
 ## Building
 
