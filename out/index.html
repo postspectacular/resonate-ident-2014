@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Resonate 2014 logo test</title>
+<style type="text/css">
+body {
+	background: black;
+}
+</style>
+</head>
+<body>
+	<div id="logo"></div>
+	<script type="text/javascript" src="logo20131106-0116.prod.js"></script>
+	<script type="text/javascript">
+        var logo = thi.ng.resonate.Logo.newInstance({
+            width : 640, //window.innerWidth,
+            height : 640, //window.innerHeight,
+            parent : 'logo',
+            letter : 'RESONAT'.charAt(~~(Math.random()*7))
+        });
+        var runner = setInterval(function() {
+            logo.update();
+            logo.draw();
+        }, 16);
+
+        //window.addEventListener('resize', function() {
+        //    logo.resize(window.innerWidth, window.innerHeight);
+        //}, false);
+    </script>
+</body>
+</html>
